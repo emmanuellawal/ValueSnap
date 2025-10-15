@@ -13,6 +13,7 @@ vendor/
 *.swp
 *.swo
 *~
+.github/chatmodes/
 
 # OS
 .DS_Store

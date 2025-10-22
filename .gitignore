@@ -33,3 +33,10 @@ build/
 tmp/
 temp/
 *.tmp
+
+# Python Virtual Environment
+venv/
+*.pyc
+__pycache__/
+.env
+.DS_Store

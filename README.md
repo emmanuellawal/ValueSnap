@@ -42,6 +42,7 @@ This project auto-deploys to GitHub Pages via GitHub Actions:
 
 - [📋 Launch Checklist](LAUNCH_CHECKLIST.md) - Pre-launch requirements
 - [🚀 Deployment Guide](DEPLOYMENT_READY.md) - GitHub Pages setup
+- [🎨 AI Image Generation](ai_image_generation/README.md) - Generate customer persona images
 
 ## 🎯 Target Audience
 

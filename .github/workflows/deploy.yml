@@ -31,9 +31,10 @@ jobs:
           mkdir -p _site
           cp index.html _site/
           cp favicon.svg _site/
+          cp favicon.ico _site/ 2>/dev/null || true
+          cp favicon-32x32.png _site/ 2>/dev/null || true
+          cp CNAME _site/ 2>/dev/null || true
           cp -r *.md _site/ 2>/dev/null || true
-          cp -r *.json _site/ 2>/dev/null || true
-          cp -r *.toml _site/ 2>/dev/null || true
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

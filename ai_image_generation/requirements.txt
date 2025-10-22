@@ -1,0 +1,12 @@
+# AI Image Generation Dependencies
+# Install these in addition to the main requirements.txt
+# These versions are compatible with each other
+
+openai>=1.0.0,<2.0.0
+httpx>=0.23.0,<0.25.0
+httpcore<0.18.0,>=0.15.0
+anyio<4,>=3.5.0
+requests==2.31.0
+pillow==10.1.0
+pytest==7.4.3
+pytest-mock==3.12.0

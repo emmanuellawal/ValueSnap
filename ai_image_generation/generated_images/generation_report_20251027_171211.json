@@ -1,0 +1,52 @@
+{
+  "generation_timestamp": "2025-10-27T17:12:11.088968",
+  "total_personas": 4,
+  "successful_generations": 4,
+  "failed_generations": 0,
+  "results": [
+    {
+      "persona_key": "estate_inheritor",
+      "persona_name": "Estate Inheritor",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-FzbGTQ4xzMvxJmiTvzEKZGiq.png?st=2025-10-27T20%3A11%3A28Z&se=2025-10-27T22%3A11%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=32836cae-d25f-4fe9-827b-1c8c59c442cc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-27T16%3A24%3A03Z&ske=2025-10-28T16%3A24%3A03Z&sks=b&skv=2024-08-04&sig=hTlCNLm9YmkzvV7WkT1/bOKKI9E/qOz1ELo8nYlMMl8%3D",
+      "file_path": "generated_images/estate_inheritor_20251027_171127.png",
+      "filename": "estate_inheritor_20251027_171127.png",
+      "size": "512x512",
+      "format": "PNG",
+      "timestamp": "20251027_171127",
+      "prompt_used": "Professional portrait of a 45-year-old woman in business attire, standing in a home office with vintage furniture and inherited antiques in the background, warm lighting, confident expression, realistic photography style"
+    },
+    {
+      "persona_key": "reseller_entrepreneur",
+      "persona_name": "Reseller Entrepreneur",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-v1SlmRNow7H3uuya5G9yNAwo.png?st=2025-10-27T20%3A11%3A43Z&se=2025-10-27T22%3A11%3A43Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=38e27a3b-6174-4d3e-90ac-d7d9ad49543f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-27T21%3A11%3A43Z&ske=2025-10-28T21%3A11%3A43Z&sks=b&skv=2024-08-04&sig=vI9hVjbOVqrG7wvk/D5aTknfPKKpxekAmlsXYERhpRw%3D",
+      "file_path": "generated_images/reseller_entrepreneur_20251027_171141.png",
+      "filename": "reseller_entrepreneur_20251027_171141.png",
+      "size": "512x512",
+      "format": "PNG",
+      "timestamp": "20251027_171141",
+      "prompt_used": "Portrait of a 32-year-old person in casual business attire, sitting at a desk with multiple items for resale (vintage items, electronics, collectibles) organized around them, modern apartment setting, entrepreneurial vibe, realistic photography style"
+    },
+    {
+      "persona_key": "antique_collector",
+      "persona_name": "Antique Collector",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-NtXC2dVbPQaUgo9WRTWF6aRl.png?st=2025-10-27T20%3A11%3A57Z&se=2025-10-27T22%3A11%3A57Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=c6569cb0-0faa-463d-9694-97df3dc1dfb1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-27T19%3A40%3A02Z&ske=2025-10-28T19%3A40%3A02Z&sks=b&skv=2024-08-04&sig=qHNHL8AzQas1IWn4FXOC27tj3X2qVW44iiIS//EAGsU%3D",
+      "file_path": "generated_images/antique_collector_20251027_171157.png",
+      "filename": "antique_collector_20251027_171157.png",
+      "size": "512x512",
+      "format": "PNG",
+      "timestamp": "20251027_171157",
+      "prompt_used": "Distinguished 60-year-old person examining an antique item with a magnifying glass, surrounded by carefully curated vintage items and books, library or study setting, sophisticated atmosphere, realistic photography style"
+    },
+    {
+      "persona_key": "small_business_owner",
+      "persona_name": "Small Business Owner",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-I6ymTEkjMk8TmS7EPi8Y8fHc.png?st=2025-10-27T20%3A12%3A11Z&se=2025-10-27T22%3A12%3A11Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=38e27a3b-6174-4d3e-90ac-d7d9ad49543f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-27T10%3A53%3A52Z&ske=2025-10-28T10%3A53%3A52Z&sks=b&skv=2024-08-04&sig=wvXz53KA1hTj6eNKDtj4IkN61PZw2RPBPJ8MOOO0Cjw%3D",
+      "file_path": "generated_images/small_business_owner_20251027_171209.png",
+      "filename": "small_business_owner_20251027_171209.png",
+      "size": "512x512",
+      "format": "PNG",
+      "timestamp": "20251027_171209",
+      "prompt_used": "Portrait of a 40-year-old small business owner in their vintage/consignment shop, surrounded by diverse items for sale, friendly and approachable expression, natural lighting, realistic photography style"
+    }
+  ]
+}

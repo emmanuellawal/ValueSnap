@@ -59,7 +59,7 @@ class ValueSnapImageGenerator:
             }
         }
     
-    def generate_consumer_image(self, persona_key: str, size: str = "1024x1024") -> Dict:
+    def generate_consumer_image(self, persona_key: str, size: str = "512x512") -> Dict:
         """
         Generate an image for a specific consumer persona
         
@@ -79,10 +79,9 @@ class ValueSnapImageGenerator:
             print(f"Generating image for {persona['name']}...")
             
             response = self.client.images.generate(
-                model="dall-e-3",
+                model="dall-e-2",
                 prompt=persona['prompt'],
                 size=size,
-                quality="standard",
                 n=1,
             )
             
@@ -128,7 +127,7 @@ class ValueSnapImageGenerator:
             print(f"❌ {error_msg}")
             raise Exception(error_msg)
     
-    def generate_all_personas(self, size: str = "1024x1024", delay: int = 2) -> List[Dict]:
+    def generate_all_personas(self, size: str = "512x512", delay: int = 2) -> List[Dict]:
         """
         Generate images for all consumer personas
         

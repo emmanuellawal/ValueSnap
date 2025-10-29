@@ -1,0 +1,28 @@
+{
+  "generation_timestamp": "2025-10-27T17:01:46.856304",
+  "total_personas": 4,
+  "successful_generations": 0,
+  "failed_generations": 4,
+  "results": [
+    {
+      "persona_key": "estate_inheritor",
+      "error": "Failed to generate image for Estate Inheritor: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "timestamp": "20251027_170146"
+    },
+    {
+      "persona_key": "reseller_entrepreneur",
+      "error": "Failed to generate image for Reseller Entrepreneur: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "timestamp": "20251027_170146"
+    },
+    {
+      "persona_key": "antique_collector",
+      "error": "Failed to generate image for Antique Collector: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "timestamp": "20251027_170146"
+    },
+    {
+      "persona_key": "small_business_owner",
+      "error": "Failed to generate image for Small Business Owner: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "timestamp": "20251027_170146"
+    }
+  ]
+}

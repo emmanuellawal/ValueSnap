@@ -501,81 +501,56 @@
 
         .persona-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 40px;
             margin-top: 60px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .persona-card {
-            background: white;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
             transition: all 0.3s ease;
         }
 
         .persona-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
-        }
-
-        .persona-header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            padding: 40px;
-            text-align: center;
         }
 
         .persona-avatar {
-            width: 100px;
-            height: 100px;
-            background: rgba(255, 255, 255, 0.2);
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 48px;
-            margin: 0 auto 16px;
             overflow: hidden;
+            margin: 0 auto 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border: 5px solid white;
+            transition: all 0.3s ease;
+        }
+
+        .persona-card:hover .persona-avatar {
+            box-shadow: 0 15px 40px rgba(37, 99, 235, 0.3);
+            border-color: var(--primary);
         }
 
         .persona-image {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            border-radius: 50%;
         }
 
-        .persona-header h3 {
-            font-size: 28px;
-            margin-bottom: 8px;
-        }
-
-        .persona-header p {
-            opacity: 0.9;
-            font-size: 16px;
-        }
-
-        .persona-body {
-            padding: 32px;
-        }
-
-        .persona-info {
-            margin-bottom: 20px;
-        }
-
-        .persona-info h4 {
-            color: var(--primary);
-            font-size: 14px;
-            font-weight: 700;
-            text-transform: uppercase;
-            margin-bottom: 8px;
-            letter-spacing: 0.5px;
-        }
-
-        .persona-info p {
+        .persona-label {
+            font-size: 18px;
+            font-weight: 600;
             color: var(--dark);
-            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .persona-description {
+            font-size: 14px;
+            color: var(--gray);
+            line-height: 1.5;
         }
 
         /* Testimonials */
@@ -1769,81 +1744,47 @@
     </div>
     <div class="persona-grid">
      <div class="persona-card">
-      <div class="persona-header">
-       <div class="persona-avatar">
-        <img alt="Emeka - Estate Manager" class="persona-image" src="ai_image_generation/generated_images/estate_inheritor_20251027_171127.png"/>
-       </div>
-       <h3>
-        Emeka, 37
-       </h3>
-       <p>
-        Small Business Owner &amp; Estate Manager
-       </p>
+      <div class="persona-avatar">
+       <img alt="Estate Inheritors" class="persona-image" src="ai_image_generation/generated_images/estate_inheritor_20251027_171127.png"/>
       </div>
-      <div class="persona-body">
-       <div class="persona-info">
-        <h4>
-         Her Challenge
-        </h4>
-        <p>
-         After inheriting her grandmother's estate, Emeka is overwhelmed by antiques and unsure what to keep or sell. She fears underpricing valuable items.
-        </p>
-       </div>
-       <div class="persona-info">
-        <h4>
-         How ValueSnap Helps
-        </h4>
-        <p>
-         Quick photo appraisals for every item, automated valuation reports, and confidence to make informed decisions without hiring expensive appraisers.
-        </p>
-       </div>
-       <div class="persona-info">
-        <h4>
-         Her Goal
-        </h4>
-        <p>
-         Turn inherited items into cash efficiently while preserving family heirlooms that truly matter.
-        </p>
-       </div>
+      <div class="persona-label">
+       Estate Inheritors
+      </div>
+      <div class="persona-description">
+       Managing inherited items and family collections
       </div>
      </div>
      <div class="persona-card">
-      <div class="persona-header">
-       <div class="persona-avatar">
-        <img alt="Jake - Reseller" class="persona-image" src="ai_image_generation/generated_images/reseller_entrepreneur_20251027_171141.png"/>
-       </div>
-       <h3>
-        Jake, 28
-       </h3>
-       <p>
-        Urban Reseller &amp; Side Hustler
-       </p>
+      <div class="persona-avatar">
+       <img alt="Resellers & Flippers" class="persona-image" src="ai_image_generation/generated_images/reseller_entrepreneur_20251027_171141.png"/>
       </div>
-      <div class="persona-body">
-       <div class="persona-info">
-        <h4>
-         His Challenge
-        </h4>
-        <p>
-         Jake flips secondhand goods for profit but wastes hours researching prices. He needs fast appraisals to scale his side hustle.
-        </p>
-       </div>
-       <div class="persona-info">
-        <h4>
-         How ValueSnap Helps
-        </h4>
-        <p>
-         Instant valuations at thrift stores, estate sales, or flea markets. Knows immediately if an item is worth buying and flipping.
-        </p>
-       </div>
-       <div class="persona-info">
-        <h4>
-         His Goal
-        </h4>
-        <p>
-         Maximize profit margins by making data-driven buying decisions in seconds, not hours.
-        </p>
-       </div>
+      <div class="persona-label">
+       Resellers & Flippers
+      </div>
+      <div class="persona-description">
+       Buying and selling items for profit
+      </div>
+     </div>
+     <div class="persona-card">
+      <div class="persona-avatar">
+       <img alt="Antique Collectors" class="persona-image" src="ai_image_generation/generated_images/antique_collector_20251027_171157.png"/>
+      </div>
+      <div class="persona-label">
+       Antique Collectors
+      </div>
+      <div class="persona-description">
+       Evaluating and curating valuable collections
+      </div>
+     </div>
+     <div class="persona-card">
+      <div class="persona-avatar">
+       <img alt="Small Business Owners" class="persona-image" src="ai_image_generation/generated_images/small_business_owner_20251027_171209.png"/>
+      </div>
+      <div class="persona-label">
+       Small Business Owners
+      </div>
+      <div class="persona-description">
+       Running vintage shops and consignment stores
       </div>
      </div>
     </div>

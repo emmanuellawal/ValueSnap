@@ -1,0 +1,28 @@
+{
+  "generation_timestamp": "2025-10-30T13:31:42.450663",
+  "total_personas": 4,
+  "successful_generations": 0,
+  "failed_generations": 4,
+  "results": [
+    {
+      "persona_key": "estate_inheritor",
+      "error": "Failed to generate image for Estate Inheritor: Error code: 403 - {'error': {'message': 'Project proj_d0vsOcdsyUVtCcdjP0uTzcHz does not have access to model dall-e-3.', 'type': 'image_generation_user_error', 'param': None, 'code': 'model_not_found'}}",
+      "timestamp": "20251030_133138"
+    },
+    {
+      "persona_key": "reseller_entrepreneur",
+      "error": "Failed to generate image for Reseller Entrepreneur: Error code: 403 - {'error': {'message': 'Project proj_d0vsOcdsyUVtCcdjP0uTzcHz does not have access to model dall-e-3.', 'type': 'image_generation_user_error', 'param': None, 'code': 'model_not_found'}}",
+      "timestamp": "20251030_133140"
+    },
+    {
+      "persona_key": "antique_collector",
+      "error": "Failed to generate image for Antique Collector: Error code: 403 - {'error': {'message': 'Project proj_d0vsOcdsyUVtCcdjP0uTzcHz does not have access to model dall-e-3.', 'type': 'image_generation_user_error', 'param': None, 'code': 'model_not_found'}}",
+      "timestamp": "20251030_133141"
+    },
+    {
+      "persona_key": "small_business_owner",
+      "error": "Failed to generate image for Small Business Owner: Error code: 403 - {'error': {'message': 'Project proj_d0vsOcdsyUVtCcdjP0uTzcHz does not have access to model dall-e-3.', 'type': 'image_generation_user_error', 'param': None, 'code': 'model_not_found'}}",
+      "timestamp": "20251030_133142"
+    }
+  ]
+}

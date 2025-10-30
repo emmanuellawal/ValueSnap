@@ -1,0 +1,2516 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   ValueSnap - Turn Inherited Treasures into Cash Instantly
+  </title>
+  <meta content="Instantly appraise and sell inherited or used items with one photo. Powered by AI and real-time eBay market data." name="description"/>
+  <!-- SEO Meta Tags -->
+  <meta content="inherited items, estate appraisal, eBay selling, AI valuation, antique appraisal, reselling items, wealth transfer, item photography" name="keywords"/>
+  <meta content="ValueSnap" name="author"/>
+  <meta content="index, follow" name="robots"/>
+  <link href="https://valuesnap.com" rel="canonical"/>
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta content="ValueSnap - Turn Inherited Treasures into Cash Instantly" property="og:title"/>
+  <meta content="The $84 trillion Great Wealth Transfer is here. ValueSnap helps you appraise and sell inherited items with one photo—no guesswork, no stress." property="og:description"/>
+  <meta content="https://valuesnap.com/images/og-image.jpg" property="og:image"/>
+  <meta content="https://valuesnap.com" property="og:url"/>
+  <meta content="website" property="og:type"/>
+  <meta content="ValueSnap" property="og:site_name"/>
+  <!-- Twitter Card Meta Tags -->
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="ValueSnap - Turn Inherited Treasures into Cash Instantly" name="twitter:title"/>
+  <meta content="Instantly appraise and sell inherited items with AI-powered valuations and real-time eBay market data." name="twitter:description"/>
+  <meta content="https://valuesnap.com/images/twitter-card.jpg" name="twitter:image"/>
+  <meta content="@valuesnap" name="twitter:creator"/>
+  <!-- Favicon -->
+  <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+  <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <!-- Preconnect to external domains for performance -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://www.googletagmanager.com" rel="preconnect"/>
+  <!-- Google Fonts - Premium Typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <!-- Google Analytics (replace GA_MEASUREMENT_ID with your actual ID) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+        
+        // Track page sections viewed
+        function trackSection(sectionName) {
+            gtag('event', 'section_view', {
+                'event_category': 'engagement',
+                'event_label': sectionName
+            });
+        }
+  </script>
+  <style>
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --primary-light: #3b82f6;
+            --secondary: #8b5cf6;
+            --secondary-dark: #7c3aed;
+            --accent: #10b981;
+            --accent-light: #34d399;
+            --dark: #0f172a;
+            --dark-light: #1e293b;
+            --dark-lighter: #334155;
+            --gray: #64748b;
+            --gray-light: #cbd5e1;
+            --gray-lighter: #e2e8f0;
+            --light: #f8fafc;
+            --white: #ffffff;
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            
+            /* Gradients */
+            --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-secondary: linear-gradient(135deg, var(--primary), var(--secondary));
+            --gradient-accent: linear-gradient(135deg, #10b981, #06b6d4);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        nav.scrolled {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: 800;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            letter-spacing: -0.02em;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: var(--gradient-secondary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 800;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .logo:hover .logo-icon {
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+            transform: rotate(-5deg);
+        }
+
+        .nav-cta {
+            background: var(--gradient-secondary);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 15px;
+            letter-spacing: -0.01em;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .nav-cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s ease;
+        }
+        
+        .nav-cta:hover::before {
+            left: 100%;
+        }
+
+        .nav-cta:hover {
+            background: linear-gradient(135deg, var(--primary-dark), var(--secondary-dark));
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+        }
+        
+        .nav-cta:active {
+            transform: translateY(0);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 160px 0 100px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.4) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.4) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(120, 219, 255, 0.4) 0%, transparent 50%),
+                url('data:image/svg+xml,<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="rgba(255,255,255,0.15)"/></pattern></defs><rect width="80" height="80" fill="url(%23grid)"/></svg>');
+            opacity: 0.9;
+            animation: float 25s ease-in-out infinite;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.05) 50%, transparent 70%);
+            animation: shimmer 10s ease-in-out infinite;
+        }
+
+        .hero-content {
+            position: relative;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 28px;
+            animation: fadeInUp 0.6s ease;
+            letter-spacing: 0.02em;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero h1 {
+            font-size: 64px;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 28px;
+            animation: fadeInUp 0.6s ease 0.1s both;
+            text-shadow: 0 2px 40px rgba(0, 0, 0, 0.15);
+            letter-spacing: -0.03em;
+        }
+
+        .hero p {
+            font-size: 22px;
+            opacity: 0.95;
+            margin-bottom: 48px;
+            line-height: 1.7;
+            animation: fadeInUp 0.6s ease 0.2s both;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 400;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 0.6s ease 0.3s both;
+        }
+
+        .btn {
+            padding: 18px 36px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 17px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: inline-block;
+            letter-spacing: -0.01em;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        .btn:active::after {
+            width: 300px;
+            height: 300px;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.8);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Stats Section */
+        .stats {
+            background: var(--dark);
+            color: white;
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stats::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 50px;
+            text-align: center;
+        }
+        
+        .stat-item {
+            position: relative;
+            padding: 20px;
+        }
+        
+        .stat-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: var(--gradient-secondary);
+            border-radius: 2px;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        
+        .stat-item:hover::before {
+            opacity: 1;
+        }
+
+        .stat-item h3 {
+            font-size: 56px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+            letter-spacing: -0.03em;
+            line-height: 1;
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-item:hover h3 {
+            transform: scale(1.1);
+        }
+
+        .stat-item p {
+            color: var(--gray-lighter);
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+        }
+
+        /* Problem Section */
+        .problem {
+            padding: 120px 0;
+            background: var(--light);
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 70px;
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(139, 92, 246, 0.1));
+            color: var(--primary);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border: 1px solid rgba(37, 99, 235, 0.2);
+        }
+
+        .section-header h2 {
+            font-size: 48px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            color: var(--dark);
+            line-height: 1.2;
+            letter-spacing: -0.03em;
+        }
+
+        .section-header p {
+            font-size: 19px;
+            color: var(--gray);
+            line-height: 1.7;
+            font-weight: 400;
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 35px;
+            margin-top: 50px;
+        }
+
+        .problem-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .problem-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #fee2e2, #fca5a5);
+            transform: scaleX(0);
+            transition: transform 0.4s ease;
+        }
+        
+        .problem-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .problem-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+            border-color: rgba(252, 165, 165, 0.3);
+        }
+
+        .problem-icon {
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(135deg, #fee2e2, #fca5a5);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            margin: 0 auto 24px;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(252, 165, 165, 0.35);
+            transition: all 0.4s ease;
+        }
+        
+        .problem-card:hover .problem-icon {
+            transform: scale(1.1) rotate(-5deg);
+            box-shadow: 0 15px 35px rgba(252, 165, 165, 0.45);
+        }
+
+        .problem-icon::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: -6px;
+            right: -6px;
+            bottom: -6px;
+            background: linear-gradient(135deg, #fee2e2, #fca5a5);
+            border-radius: 28px;
+            opacity: 0.25;
+            z-index: -1;
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        .problem-card h3 {
+            font-size: 24px;
+            margin-bottom: 14px;
+            color: var(--dark);
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .problem-card p {
+            color: var(--gray);
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: 800;
+            margin: 0 auto 24px;
+            box-shadow: 0 8px 16px rgba(37, 99, 235, 0.3);
+        }
+
+        .step h3 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            color: var(--dark);
+        }
+
+        .step p {
+            color: var(--gray);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        /* Features */
+        .features {
+            padding: 120px 0;
+            background: var(--dark);
+            color: white;
+            position: relative;
+        }
+        
+        .features::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="rgba(255,255,255,0.03)"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.5;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 35px;
+            margin-top: 70px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .feature-card {
+            background: var(--dark-light);
+            padding: 45px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.05), rgba(139, 92, 246, 0.05));
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+        
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-card:hover {
+            border-color: rgba(37, 99, 235, 0.4);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--gradient-secondary);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            margin-bottom: 28px;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .feature-card:hover .feature-icon {
+            transform: translateY(-8px) scale(1.1) rotate(-5deg);
+            box-shadow: 0 15px 35px rgba(37, 99, 235, 0.5);
+        }
+
+        .feature-icon::after {
+            content: '';
+            position: absolute;
+            top: -4px;
+            left: -4px;
+            right: -4px;
+            bottom: -4px;
+            background: var(--gradient-secondary);
+            border-radius: 24px;
+            opacity: 0.15;
+            z-index: -1;
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        .feature-card h3 {
+            font-size: 24px;
+            margin-bottom: 14px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .feature-card p {
+            color: var(--gray-lighter);
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        /* Personas */
+        .personas {
+            padding: 100px 0;
+            background: var(--light);
+        }
+
+        .persona-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            margin-top: 60px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .persona-card {
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .persona-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .persona-avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border: 5px solid white;
+            transition: all 0.3s ease;
+        }
+
+        .persona-card:hover .persona-avatar {
+            box-shadow: 0 15px 40px rgba(37, 99, 235, 0.3);
+            border-color: var(--primary);
+        }
+
+        .persona-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .persona-label {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--dark);
+            margin-bottom: 8px;
+        }
+
+        .persona-description {
+            font-size: 14px;
+            color: var(--gray);
+            line-height: 1.5;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+            margin: 60px 0;
+        }
+
+        .testimonial-card {
+            background: var(--light);
+            border-radius: 20px;
+            padding: 32px;
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-content {
+            margin-bottom: 24px;
+        }
+
+        .quote-icon {
+            font-size: 64px;
+            color: var(--primary);
+            line-height: 1;
+            opacity: 0.3;
+            margin-bottom: 16px;
+        }
+
+        .testimonial-content p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--dark);
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .author-avatar {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .author-info h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--dark);
+            margin-bottom: 4px;
+        }
+
+        .author-info p {
+            font-size: 14px;
+            color: var(--gray);
+        }
+
+        /* Trust Indicators */
+        .trust-indicators {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 32px;
+            margin-top: 60px;
+            padding-top: 60px;
+            border-top: 1px solid var(--gray-light);
+        }
+
+        .trust-item {
+            text-align: center;
+        }
+
+        .trust-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        .trust-item h4 {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--dark);
+            margin-bottom: 8px;
+        }
+
+        .trust-item p {
+            font-size: 14px;
+            color: var(--gray);
+            line-height: 1.6;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: float 20s linear infinite;
+        }
+
+        .cta-content {
+            position: relative;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .cta-content h2 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 24px;
+        }
+
+        .cta-content p {
+            font-size: 20px;
+            margin-bottom: 40px;
+            opacity: 0.95;
+        }
+
+        .email-capture {
+            display: flex;
+            gap: 12px;
+            max-width: 500px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .email-input {
+            flex: 1;
+            min-width: 250px;
+            padding: 16px 20px;
+            border-radius: 12px;
+            border: none;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .email-submit {
+            padding: 16px 32px;
+            background: var(--dark);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .email-submit:hover {
+            background: var(--dark-light);
+            transform: translateY(-2px);
+        }
+
+        .email-submit:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-loader svg {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .form-message {
+            margin-top: 16px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            display: none;
+        }
+
+        .form-message.success {
+            background-color: rgba(16, 185, 129, 0.1);
+            color: #10b981;
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            display: block;
+        }
+
+        .form-message.error {
+            background-color: rgba(239, 68, 68, 0.1);
+            color: #ef4444;
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            display: block;
+        }
+
+        .email-input.error {
+            border: 2px solid #ef4444;
+            background-color: rgba(239, 68, 68, 0.05);
+        }
+
+        .email-input.success {
+            border: 2px solid #10b981;
+            background-color: rgba(16, 185, 129, 0.05);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: var(--gray-light);
+            padding: 60px 0 30px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h4 {
+            color: white;
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+
+        .footer-section p {
+            line-height: 1.8;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: var(--gray-light);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: var(--gray-light);
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 30px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        /* Enhanced Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes countUp {
+            from {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* Enhanced Interactions */
+        .problem-card, .feature-card, .testimonial-card {
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .problem-card:hover, .testimonial-card:hover {
+            transform: translateY(-8px) scale(1.02);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--primary);
+            box-shadow: 0 20px 40px rgba(37, 99, 235, 0.2);
+        }
+
+        /* Staggered Animations */
+        .hero-content {
+            animation: slideInLeft 0.8s ease 0.2s both;
+        }
+
+        .hero-visual {
+            animation: slideInRight 0.8s ease 0.4s both;
+        }
+
+        .hero-stats .hero-stat:nth-child(1) {
+            animation: countUp 0.6s ease 0.8s both;
+        }
+
+        .hero-stats .hero-stat:nth-child(2) {
+            animation: countUp 0.6s ease 1s both;
+        }
+
+        .hero-stats .hero-stat:nth-child(3) {
+            animation: countUp 0.6s ease 1.2s both;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-20px) rotate(5deg);
+            }
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-100%) translateY(-100%) rotate(45deg);
+            }
+            100% {
+                transform: translateX(100%) translateY(100%) rotate(45deg);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 0.4;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.8;
+                transform: scale(1.05);
+            }
+        }
+
+        @keyframes scanLine {
+            0% {
+                top: 0%;
+                opacity: 1;
+            }
+            100% {
+                top: 100%;
+                opacity: 0;
+            }
+        }
+
+        /* Hero Enhancements */
+        .hero-floating-elements {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .floating-item {
+            position: absolute;
+            font-size: 2rem;
+            opacity: 0.3;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .floating-item-1 {
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .floating-item-2 {
+            top: 60%;
+            left: 5%;
+            animation-delay: 1s;
+        }
+
+        .floating-item-3 {
+            top: 30%;
+            right: 15%;
+            animation-delay: 2s;
+        }
+
+        .floating-item-4 {
+            top: 70%;
+            right: 20%;
+            animation-delay: 3s;
+        }
+
+        .floating-item-5 {
+            top: 15%;
+            right: 5%;
+            animation-delay: 4s;
+        }
+
+        .hero-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .hero-stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            display: block;
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        /* Phone Mockup */
+        .hero-visual {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .phone-mockup {
+            width: 280px;
+            height: 560px;
+            background: linear-gradient(145deg, #2d3748, #1a202c);
+            border-radius: 30px;
+            padding: 20px;
+            box-shadow: 
+                0 25px 50px rgba(0,0,0,0.3),
+                inset 0 1px 0 rgba(255,255,255,0.1);
+            position: relative;
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        .phone-screen {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .app-interface {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+            position: relative;
+        }
+
+        .app-header {
+            padding: 60px 20px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+        }
+
+        .app-title {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 5px;
+        }
+
+        .app-subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .camera-view {
+            height: 280px;
+            margin: 20px;
+            background: #1a202c;
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .scan-frame {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 60%;
+            border: 2px solid var(--primary);
+            border-radius: 10px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .scan-line {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--primary), transparent);
+            animation: scanLine 2s ease-in-out infinite;
+        }
+
+        .quick-stats {
+            display: flex;
+            gap: 10px;
+            margin: 0 20px;
+        }
+
+        .quick-stat {
+            flex: 1;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .quick-stat .label {
+            display: block;
+            font-size: 12px;
+            color: var(--gray);
+            margin-bottom: 5px;
+        }
+
+        .quick-stat .value {
+            display: block;
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Focus indicators */
+        *:focus {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        /* High contrast mode support */
+        @media (prefers-contrast: high) {
+            :root {
+                --primary: #0000ff;
+                --secondary: #8b00ff;
+                --dark: #000000;
+                --gray: #333333;
+            }
+        }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 20px;
+            }
+            
+            .testimonials-grid {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 120px 0 60px;
+                min-height: auto;
+            }
+            
+            .hero-layout {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                text-align: center;
+            }
+            
+            .hero-visual {
+                order: -1;
+            }
+            
+            .phone-mockup {
+                width: 200px;
+                height: 400px;
+                padding: 15px;
+            }
+            
+            .hero-stats {
+                justify-content: center;
+                gap: 20px;
+            }
+            
+            .stat-number {
+                font-size: 24px;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+                line-height: 1.2;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+            
+            .floating-item {
+                font-size: 1.5rem;
+            }
+
+            .section-header h2 {
+                font-size: 32px;
+            }
+            
+            .section-header p {
+                font-size: 16px;
+            }
+
+            .persona-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 24px;
+            }
+
+            .email-capture {
+                flex-direction: column;
+            }
+
+            .email-input {
+                width: 100%;
+                min-width: auto;
+            }
+            
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            
+            .trust-indicators {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 24px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 24px;
+            }
+            
+            .problem-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            
+            .steps {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+            
+            .hero p {
+                font-size: 16px;
+            }
+            
+            .section-header h2 {
+                font-size: 28px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .nav-content {
+                padding: 16px 20px;
+            }
+            
+            .logo {
+                font-size: 20px;
+            }
+            
+            .nav-cta {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateX(-50%) translateY(0);
+            }
+            40% {
+                transform: translateX(-50%) translateY(-10px);
+            }
+            60% {
+                transform: translateX(-50%) translateY(-5px);
+            }
+        }
+
+        .scroll-indicator::after {
+            content: '↓';
+            color: white;
+            font-size: 32px;
+            opacity: 0.7;
+        }
+  </style>
+ </head>
+ <body>
+  <!-- Navigation -->
+  <nav aria-label="Main navigation" role="navigation">
+   <div class="nav-content">
+    <div class="logo">
+     <div aria-hidden="true" class="logo-icon">
+      V
+     </div>
+     ValueSnap
+    </div>
+    <a aria-label="Join our waitlist" class="nav-cta" href="#waitlist">
+     Join Waitlist
+    </a>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero">
+   <div class="hero-floating-elements">
+    <div class="floating-item floating-item-1">
+     💎
+    </div>
+    <div class="floating-item floating-item-2">
+     📱
+    </div>
+    <div class="floating-item floating-item-3">
+     💰
+    </div>
+    <div class="floating-item floating-item-4">
+     🏺
+    </div>
+    <div class="floating-item floating-item-5">
+     📊
+    </div>
+   </div>
+   <div class="container">
+    <div class="hero-layout">
+     <div class="hero-content">
+      <div class="hero-badge">
+       🚀 Powered by AI &amp; Real-Time Market Data
+      </div>
+      <h1>
+       Turn Inherited Treasures Into Cash Instantly
+      </h1>
+      <p>
+       The $84 trillion Great Wealth Transfer is here. ValueSnap helps you appraise and sell inherited items with one photo—no guesswork, no stress.
+      </p>
+      <div class="hero-cta-group">
+       <a class="btn btn-primary" href="#waitlist">
+        Get Early Access
+       </a>
+       <a class="btn btn-secondary" href="#how-it-works">
+        See How It Works
+       </a>
+      </div>
+      <div class="hero-stats">
+       <div class="hero-stat">
+        <span class="stat-number">
+         500+
+        </span>
+        <span class="stat-label">
+         Early Adopters
+        </span>
+       </div>
+       <div class="hero-stat">
+        <span class="stat-number">
+         95%
+        </span>
+        <span class="stat-label">
+         Accuracy Rate
+        </span>
+       </div>
+       <div class="hero-stat">
+        <span class="stat-number">
+         &lt;30s
+        </span>
+        <span class="stat-label">
+         Avg. Appraisal
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="hero-visual">
+      <div class="phone-mockup">
+       <div class="phone-screen">
+        <div class="app-interface">
+         <div class="app-header">
+          <div class="app-title">
+           ValueSnap
+          </div>
+          <div class="app-subtitle">
+           AI Appraisal
+          </div>
+         </div>
+         <div class="camera-view">
+          <div class="scan-frame">
+          </div>
+          <div class="scan-line">
+          </div>
+         </div>
+         <div class="quick-stats">
+          <div class="quick-stat">
+           <span class="label">
+            Quick Sell
+           </span>
+           <span class="value">
+            $450
+           </span>
+          </div>
+          <div class="quick-stat">
+           <span class="label">
+            Patient Sell
+           </span>
+           <span class="value">
+            $680
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="scroll-indicator">
+   </div>
+  </section>
+  <!-- Stats -->
+  <section class="stats">
+   <div class="container">
+    <div class="stats-grid">
+     <div class="stat-item">
+      <h3>
+       $84T
+      </h3>
+      <p>
+       Great Wealth Transfer underway
+      </p>
+     </div>
+     <div class="stat-item">
+      <h3>
+       1 Photo
+      </h3>
+      <p>
+       All it takes to get an appraisal
+      </p>
+     </div>
+     <div class="stat-item">
+      <h3>
+       Real-Time
+      </h3>
+      <p>
+       Market data from eBay
+      </p>
+     </div>
+     <div class="stat-item">
+      <h3 id="waitlistCounter">
+       500+
+      </h3>
+      <p>
+       People on waitlist
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Problem Section -->
+  <section class="problem">
+   <div class="container">
+    <div class="section-header">
+     <div class="section-badge">
+      The Challenge
+     </div>
+     <h2>
+      Inheriting is Hard. Selling Shouldn't Be.
+     </h2>
+     <p>
+      When loved ones pass down estates, beneficiaries face overwhelming decisions about what items are worth keeping or selling.
+     </p>
+    </div>
+    <div class="problem-grid">
+     <div class="problem-card">
+      <div class="problem-icon">
+       😰
+      </div>
+      <h3>
+       Overwhelmed by Estates
+      </h3>
+      <p>
+       Inheritors receive homes full of antiques, furniture, and collectibles with no idea where to start or what's valuable.
+      </p>
+     </div>
+     <div class="problem-card">
+      <div class="problem-icon">
+       ⏰
+      </div>
+      <h3>
+       Time-Consuming Research
+      </h3>
+      <p>
+       Manually researching item values across multiple platforms takes hours and still leaves you uncertain about accurate pricing.
+      </p>
+     </div>
+     <div class="problem-card">
+      <div class="problem-icon">
+       💸
+      </div>
+      <h3>
+       Money Left on the Table
+      </h3>
+      <p>
+       Without proper appraisals, people either undersell valuable items or overprice them, missing out on real cash opportunities.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- How It Works -->
+  <section class="how-it-works" id="how-it-works">
+   <div class="container">
+    <div class="section-header">
+     <div class="section-badge">
+      Simple Process
+     </div>
+     <h2>
+      Three Steps to Unlock Value
+     </h2>
+     <p>
+      ValueSnap combines AI analysis with real-time eBay market data to give you instant, trustworthy appraisals.
+     </p>
+    </div>
+    <div class="steps">
+     <div class="step">
+      <div class="step-number">
+       1
+      </div>
+      <h3>
+       Snap a Photo
+      </h3>
+      <p>
+       Take a quick photo of any item—furniture, antiques, collectibles, or everyday items you want to sell.
+      </p>
+     </div>
+     <div class="step">
+      <div class="step-number">
+       2
+      </div>
+      <h3>
+       Get AI Appraisal
+      </h3>
+      <p>
+       Our GPT-powered analysis identifies your item, researches comparable sales, and provides quicksell and patient sell estimates.
+      </p>
+     </div>
+     <div class="step">
+      <div class="step-number">
+       3
+      </div>
+      <h3>
+       List &amp; Sell
+      </h3>
+      <p>
+       Choose your selling strategy and list directly on eBay with one tap—or get insights to sell elsewhere.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Features -->
+  <section class="features">
+   <div class="container">
+    <div class="section-header">
+     <div class="section-badge" style="background: rgba(255,255,255,0.1); color: white;">
+      Key Features
+     </div>
+     <h2 style="color: white;">
+      Built for Speed, Accuracy, and Trust
+     </h2>
+     <p style="color: var(--gray-light);">
+      ValueSnap eliminates the friction between inheriting items and turning them into cash.
+     </p>
+    </div>
+    <div class="features-grid">
+     <div class="feature-card">
+      <div class="feature-icon">
+       📸
+      </div>
+      <h3>
+       One-Tap Photo Appraisal
+      </h3>
+      <p>
+       Snap a photo and get instant valuations—no typing descriptions, no manual research, no complexity.
+      </p>
+     </div>
+     <div class="feature-card">
+      <div class="feature-icon">
+       🎯
+      </div>
+      <h3>
+       Dual Pricing Strategy
+      </h3>
+      <p>
+       Get both quicksell (immediate cash) and patient sell (maximum value) estimates with outlier detection for accuracy.
+      </p>
+     </div>
+     <div class="feature-card">
+      <div class="feature-icon">
+       🤖
+      </div>
+      <h3>
+       GPT-Powered Analysis
+      </h3>
+      <p>
+       Advanced AI identifies items, generates detailed descriptions, and provides research notes for confident decisions.
+      </p>
+     </div>
+     <div class="feature-card">
+      <div class="feature-icon">
+       📊
+      </div>
+      <h3>
+       Real-Time eBay Data
+      </h3>
+      <p>
+       Market prices pulled directly from eBay's active listings and completed sales—always current, always reliable.
+      </p>
+     </div>
+     <div class="feature-card">
+      <div class="feature-icon">
+       🔗
+      </div>
+      <h3>
+       Seamless eBay Integration
+      </h3>
+      <p>
+       List items on eBay with pre-filled details in seconds, or use insights to sell on your preferred platform.
+      </p>
+     </div>
+     <div class="feature-card">
+      <div class="feature-icon">
+       📈
+      </div>
+      <h3>
+       Premium Reports
+      </h3>
+      <p>
+       Upgrade for detailed valuation reports with market trends, pricing history, and seller recommendations.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Personas -->
+  <section class="personas">
+   <div class="container">
+    <div class="section-header">
+     <div class="section-badge">
+      Who It's For
+     </div>
+     <h2>
+      Built for Inheritors and Resellers
+     </h2>
+     <p>
+      Whether you're managing an estate or flipping items for profit, ValueSnap is your trusted partner.
+     </p>
+    </div>
+    <div class="persona-grid">
+     <div class="persona-card">
+      <div class="persona-avatar">
+       <img alt="Estate Inheritors" class="persona-image" src="/static/ai_image_generation/generated_images/estate_inheritor_20251030_141612.png"/>
+      </div>
+      <div class="persona-label">
+       Estate Inheritors
+      </div>
+      <div class="persona-description">
+       Managing inherited items and family collections
+      </div>
+     </div>
+     <div class="persona-card">
+      <div class="persona-avatar">
+       <img alt="Resellers & Flippers" class="persona-image" src="/static/ai_image_generation/generated_images/reseller_entrepreneur_20251030_140910.png"/>
+      </div>
+      <div class="persona-label">
+       Resellers & Flippers
+      </div>
+      <div class="persona-description">
+       Buying and selling items for profit
+      </div>
+     </div>
+     <div class="persona-card">
+      <div class="persona-avatar">
+       <img alt="Antique Collectors" class="persona-image" src="/static/ai_image_generation/generated_images/antique_collector_20251030_141001.png"/>
+      </div>
+      <div class="persona-label">
+       Antique Collectors
+      </div>
+      <div class="persona-description">
+       Evaluating and curating valuable collections
+      </div>
+     </div>
+     <div class="persona-card">
+      <div class="persona-avatar">
+       <img alt="Small Business Owners" class="persona-image" src="/static/ai_image_generation/generated_images/small_business_owner_20251030_141022.png"/>
+      </div>
+      <div class="persona-label">
+       Small Business Owners
+      </div>
+      <div class="persona-description">
+       Running vintage shops and consignment stores
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+   <div class="container">
+    <div class="section-header">
+     <div class="section-badge">
+      Social Proof
+     </div>
+     <h2>
+      What Early Users Are Saying
+     </h2>
+     <p>
+      ValueSnap is already helping people unlock value from their inherited items.
+     </p>
+    </div>
+    <div class="testimonials-grid">
+     <div class="testimonial-card">
+      <div class="testimonial-content">
+       <div class="quote-icon">
+        "
+       </div>
+       <p>
+        "I inherited my grandmother's jewelry collection and had no idea what it was worth. ValueSnap helped me identify a vintage brooch worth $800 that I almost gave away!"
+       </p>
+      </div>
+      <div class="testimonial-author">
+       <div class="author-avatar">
+        👩‍💼
+       </div>
+       <div class="author-info">
+        <h4>
+         Sarah Chen
+        </h4>
+        <p>
+         Estate Inheritor, San Francisco
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="testimonial-card">
+      <div class="testimonial-content">
+       <div class="quote-icon">
+        "
+       </div>
+       <p>
+        "As a reseller, ValueSnap saves me hours of research. I can now appraise items instantly at estate sales and make informed buying decisions on the spot."
+       </p>
+      </div>
+      <div class="testimonial-author">
+       <div class="author-avatar">
+        👨‍💻
+       </div>
+       <div class="author-info">
+        <h4>
+         Marcus Johnson
+        </h4>
+        <p>
+         Professional Reseller, Austin
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="testimonial-card">
+      <div class="testimonial-content">
+       <div class="quote-icon">
+        "
+       </div>
+       <p>
+        "The app's eBay integration is seamless. I photographed old china, got an appraisal, and listed it with one tap. Sold for $300 within days!"
+       </p>
+      </div>
+      <div class="testimonial-author">
+       <div class="author-avatar">
+        👵
+       </div>
+       <div class="author-info">
+        <h4>
+         Betty Martinez
+        </h4>
+        <p>
+         Downsizing Homeowner, Phoenix
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- Trust Indicators -->
+    <div class="trust-indicators">
+     <div class="trust-item">
+      <div class="trust-icon">
+       🔒
+      </div>
+      <h4>
+       Bank-Level Security
+      </h4>
+      <p>
+       Your data is protected with enterprise-grade encryption
+      </p>
+     </div>
+     <div class="trust-item">
+      <div class="trust-icon">
+       ⚡
+      </div>
+      <h4>
+       Instant Results
+      </h4>
+      <p>
+       AI-powered appraisals in under 30 seconds
+      </p>
+     </div>
+     <div class="trust-item">
+      <div class="trust-icon">
+       🎯
+      </div>
+      <h4>
+       95% Accuracy
+      </h4>
+      <p>
+       Valuations within 10% of professional appraisals
+      </p>
+     </div>
+     <div class="trust-item">
+      <div class="trust-icon">
+       📱
+      </div>
+      <h4>
+       Mobile First
+      </h4>
+      <p>
+       Works perfectly on any device, anywhere
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- CTA Section -->
+  <section class="cta-section" id="waitlist">
+   <div class="container">
+    <div class="cta-content">
+     <h2>
+      Be First to Unlock Value
+     </h2>
+     <p>
+      ValueSnap is launching soon. Join our waitlist to get early access, exclusive features, and first-user perks.
+     </p>
+     <form aria-label="Join our waitlist" class="email-capture" id="waitlistForm">
+      <label class="sr-only" for="emailInput">
+       Email address
+      </label>
+      <input aria-describedby="email-error" autocomplete="email" class="email-input" id="emailInput" placeholder="Enter your email" required="" type="email"/>
+      <button aria-describedby="form-status" class="email-submit" id="submitBtn" type="submit">
+       <span class="btn-text">
+        Join Waitlist
+       </span>
+       <span aria-hidden="true" class="btn-loader" style="display: none;">
+        <svg aria-label="Loading" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M21 12A9 9 0 1 1 3 12">
+         </path>
+         <animatetransform attributename="transform" attributetype="xml" dur="1s" from="0 12 12" repeatcount="indefinite" to="360 12 12" type="rotate">
+         </animatetransform>
+        </svg>
+       </span>
+      </button>
+     </form>
+     <div aria-live="polite" class="form-message" id="formMessage" role="alert">
+     </div>
+     <p style="margin-top: 20px; font-size: 14px; opacity: 0.8;">
+      No spam. Just launch updates and early access.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+   <div class="container">
+    <div class="footer-content">
+     <div class="footer-section">
+      <h4>
+       ValueSnap
+      </h4>
+      <p>
+       Empowering the Great Wealth Transfer with instant appraisals and seamless selling tools. Turn possessions into profits, effortlessly.
+      </p>
+      <div class="social-links">
+       <a class="social-link" href="https://twitter.com/valuesnap" rel="noopener noreferrer" target="_blank">
+        <svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+         <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+         </path>
+        </svg>
+       </a>
+       <a class="social-link" href="https://linkedin.com/company/valuesnap" rel="noopener noreferrer" target="_blank">
+        <svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z">
+         </path>
+        </svg>
+       </a>
+       <a class="social-link" href="https://instagram.com/valuesnap" rel="noopener noreferrer" target="_blank">
+        <svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+         <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z">
+         </path>
+        </svg>
+       </a>
+      </div>
+     </div>
+     <div class="footer-section">
+      <h4>
+       Product
+      </h4>
+      <ul class="footer-links">
+       <li>
+        <a href="#how-it-works">
+         How It Works
+        </a>
+       </li>
+       <li>
+        <a href="#features">
+         Features
+        </a>
+       </li>
+       <li>
+        <a href="#pricing">
+         Pricing
+        </a>
+       </li>
+       <li>
+        <a href="#faq">
+         FAQ
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footer-section">
+      <h4>
+       Company
+      </h4>
+      <ul class="footer-links">
+       <li>
+        <a href="#about">
+         About Us
+        </a>
+       </li>
+       <li>
+        <a href="#blog">
+         Blog
+        </a>
+       </li>
+       <li>
+        <a href="#contact">
+         Contact
+        </a>
+       </li>
+       <li>
+        <a href="#careers">
+         Careers
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footer-section">
+      <h4>
+       Legal
+      </h4>
+      <ul class="footer-links">
+       <li>
+        <a href="#privacy">
+         Privacy Policy
+        </a>
+       </li>
+       <li>
+        <a href="#terms">
+         Terms of Service
+        </a>
+       </li>
+       <li>
+        <a href="#cookies">
+         Cookie Policy
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="footer-bottom">
+     <p>
+      © 2025 ValueSnap. All rights reserved.
+     </p>
+    </div>
+   </div>
+  </footer>
+  <script>
+   // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Enhanced waitlist form submission
+        document.getElementById('waitlistForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const emailInput = document.getElementById('emailInput');
+            const submitBtn = document.getElementById('submitBtn');
+            const btnText = submitBtn.querySelector('.btn-text');
+            const btnLoader = submitBtn.querySelector('.btn-loader');
+            const formMessage = document.getElementById('formMessage');
+            const email = emailInput.value.trim();
+            
+            // Reset previous states
+            emailInput.classList.remove('error', 'success');
+            formMessage.className = 'form-message';
+            formMessage.style.display = 'none';
+            
+            // Validate email
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                emailInput.classList.add('error');
+                showMessage('Please enter a valid email address.', 'error');
+                return;
+            }
+            
+            // Show loading state
+            submitBtn.disabled = true;
+            btnText.style.display = 'none';
+            btnLoader.style.display = 'inline-flex';
+            
+            try {
+                // Simulate API call (replace with your actual endpoint)
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                
+                // For now, we'll store in localStorage as a placeholder
+                const waitlistEmails = JSON.parse(localStorage.getItem('valuesnap-waitlist') || '[]');
+                
+                // Check if email already exists
+                if (waitlistEmails.includes(email)) {
+                    throw new Error('This email is already on our waitlist!');
+                }
+                
+                // Add email to waitlist
+                waitlistEmails.push(email);
+                localStorage.setItem('valuesnap-waitlist', JSON.stringify(waitlistEmails));
+                
+                // Success state
+                emailInput.classList.add('success');
+                showMessage('🎉 Success! You\'re on the waitlist. We\'ll notify you when ValueSnap launches!', 'success');
+                emailInput.value = '';
+                
+                // Track the conversion (replace with your analytics)
+                if (window.gtag) {
+                    gtag('event', 'waitlist_signup', {
+                        'event_category': 'engagement',
+                        'event_label': 'landing_page'
+                    });
+                }
+                
+            } catch (error) {
+                emailInput.classList.add('error');
+                showMessage(error.message || 'Something went wrong. Please try again.', 'error');
+            } finally {
+                // Reset loading state
+                submitBtn.disabled = false;
+                btnText.style.display = 'inline';
+                btnLoader.style.display = 'none';
+            }
+            
+            function showMessage(text, type) {
+                formMessage.textContent = text;
+                formMessage.className = `form-message ${type}`;
+                formMessage.style.display = 'block';
+            }
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and sections with tracking
+        const sectionsToTrack = {
+            '.problem': 'problem_section',
+            '.how-it-works': 'how_it_works',
+            '.features': 'features_section',
+            '.personas': 'personas_section',
+            '.testimonials': 'testimonials_section'
+        };
+
+        // Track section views
+        Object.entries(sectionsToTrack).forEach(([selector, eventName]) => {
+            const section = document.querySelector(selector);
+            if (section) {
+                const sectionObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            trackSection(eventName);
+                            sectionObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.3 });
+                sectionObserver.observe(section);
+            }
+        });
+
+        // Animate cards and sections
+        document.querySelectorAll('.problem-card, .step, .feature-card, .persona-card, .testimonial-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            } else {
+                nav.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
+            }
+        });
+
+        // Update waitlist counter
+        function updateWaitlistCounter() {
+            const waitlistEmails = JSON.parse(localStorage.getItem('valuesnap-waitlist') || '[]');
+            const baseCount = 487; // Starting count for social proof
+            const currentCount = baseCount + waitlistEmails.length;
+            const counter = document.getElementById('waitlistCounter');
+            if (counter) {
+                counter.textContent = currentCount + '+';
+            }
+        }
+
+        // Initialize counter on page load
+        updateWaitlistCounter();
+
+        // Update counter when someone joins
+        const originalSubmitHandler = document.getElementById('waitlistForm').onsubmit;
+        document.getElementById('waitlistForm').addEventListener('submit', function(e) {
+            const originalHandler = this.onsubmit;
+            setTimeout(() => {
+                updateWaitlistCounter();
+            }, 2000); // Update after successful submission
+        });
+        
+        // Smooth Scroll for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && href.length > 1) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            });
+        });
+        
+        // Add parallax effect to hero
+        let ticking = false;
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    const scrolled = window.pageYOffset;
+                    const hero = document.querySelector('.hero');
+                    if (hero && scrolled < window.innerHeight) {
+                        hero.style.transform = `translateY(${scrolled * 0.4}px)`;
+                        hero.style.opacity = Math.max(1 - (scrolled / window.innerHeight) * 0.5, 0.3);
+                    }
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        });
+  </script>
+ </body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "generation_timestamp": "2025-10-30T14:10:25.579205",
+  "total_personas": 4,
+  "successful_generations": 4,
+  "failed_generations": 0,
+  "results": [
+    {
+      "persona_key": "estate_inheritor",
+      "persona_name": "Estate Inheritor",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-dcDhZGdYQtX64bwpxSfPlF9H.png?st=2025-10-30T17%3A08%3A51Z&se=2025-10-30T19%3A08%3A51Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=c6569cb0-0faa-463d-9694-97df3dc1dfb1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T17%3A34%3A12Z&ske=2025-10-31T17%3A34%3A12Z&sks=b&skv=2024-08-04&sig=oiQrYb6sFFpE9fmPYuvggnKYfT8ODJSYHfsXQvlFH40%3D",
+      "file_path": "generated_images/estate_inheritor_20251030_140849.png",
+      "filename": "estate_inheritor_20251030_140849.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_140849",
+      "prompt_used": "Natural lifestyle photograph of a 45-year-old woman in elegant blouse, casually leaning on her desk in a bright home office with vintage furniture softly blurred in background, relaxed thoughtful expression, shot with 50mm lens, natural window light, shallow depth of field, professional lifestyle photography, authentic real person"
+    },
+    {
+      "persona_key": "reseller_entrepreneur",
+      "persona_name": "Reseller Entrepreneur",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-sCZV8UFFTuzzVopBdANQnc68.png?st=2025-10-30T17%3A09%3A10Z&se=2025-10-30T19%3A09%3A10Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=0e2a3d55-e963-40c9-9c89-2a1aa28cb3ac&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T14%3A59%3A35Z&ske=2025-10-31T14%3A59%3A35Z&sks=b&skv=2024-08-04&sig=jaDUIsxZ2xFjvbFMUHpxEmK1wOiGhDcjTLEIZU%2BLsAc%3D",
+      "file_path": "generated_images/reseller_entrepreneur_20251030_140910.png",
+      "filename": "reseller_entrepreneur_20251030_140910.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_140910",
+      "prompt_used": "Natural lifestyle photograph of a 32-year-old African American man in casual button-up shirt, relaxed pose at his workspace with items visible but blurred in background, warm genuine expression, shot with 50mm lens, soft natural lighting from window, shallow depth of field, professional lifestyle photography, authentic real person"
+    },
+    {
+      "persona_key": "antique_collector",
+      "persona_name": "Antique Collector",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-EK2sSu7wel35ebkHdkoEQV3V.png?st=2025-10-30T17%3A10%3A03Z&se=2025-10-30T19%3A10%3A03Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8eb2c87c-0531-4dab-acb3-b5e2adddce6c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T18%3A10%3A03Z&ske=2025-10-31T18%3A10%3A03Z&sks=b&skv=2024-08-04&sig=OiUpqWpM%2BfqyeREDGb/IkpcOfbITrclFTompc3aJqa4%3D",
+      "file_path": "generated_images/antique_collector_20251030_141001.png",
+      "filename": "antique_collector_20251030_141001.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_141001",
+      "prompt_used": "Natural lifestyle photograph of a distinguished 60-year-old man with classic glasses in sweater or blazer, seated in personal library with bookshelves softly blurred behind him, calm intelligent expression, shot with 85mm lens, warm ambient lighting, shallow depth of field, professional lifestyle photography, authentic real person"
+    },
+    {
+      "persona_key": "small_business_owner",
+      "persona_name": "Small Business Owner",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-f1VdFvrfjTywF7qmSADdVKss.png?st=2025-10-30T17%3A10%3A23Z&se=2025-10-30T19%3A10%3A23Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b2c0e1c0-cf97-4e19-8986-8073905d5723&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T09%3A49%3A20Z&ske=2025-10-31T09%3A49%3A20Z&sks=b&skv=2024-08-04&sig=AF%2B2YjlgBO0530E58ZPYOJkUhghuJsUJzeKMhJ0jweM%3D",
+      "file_path": "generated_images/small_business_owner_20251030_141022.png",
+      "filename": "small_business_owner_20251030_141022.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_141022",
+      "prompt_used": "Natural lifestyle photograph of a 40-year-old woman in casual business attire, standing in her boutique with colorful merchandise softly blurred in background, warm welcoming smile, shot with 50mm lens, soft natural daylight, shallow depth of field, professional lifestyle photography, authentic real person"
+    }
+  ]
+}

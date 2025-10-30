@@ -1,0 +1,52 @@
+{
+  "generation_timestamp": "2025-10-30T13:47:00.842752",
+  "total_personas": 4,
+  "successful_generations": 4,
+  "failed_generations": 0,
+  "results": [
+    {
+      "persona_key": "estate_inheritor",
+      "persona_name": "Estate Inheritor",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-6RaBYMcMeuQhcJ7i1WGQsyuf.png?st=2025-10-30T16%3A45%3A45Z&se=2025-10-30T18%3A45%3A45Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=32836cae-d25f-4fe9-827b-1c8c59c442cc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T13%3A56%3A15Z&ske=2025-10-31T13%3A56%3A15Z&sks=b&skv=2024-08-04&sig=kBqAf8asIAScEHA/atcGO/sHVBFPBixZZ%2BUnIcGgGsA%3D",
+      "file_path": "generated_images/estate_inheritor_20251030_134544.png",
+      "filename": "estate_inheritor_20251030_134544.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_134544",
+      "prompt_used": "Candid photo of a 45-year-old woman in elegant business casual attire, naturally working at her desk in a bright home office, looking thoughtfully at something off-camera, surrounded by vintage furniture, soft afternoon sunlight through window, authentic moment, unposed, photorealistic"
+    },
+    {
+      "persona_key": "reseller_entrepreneur",
+      "persona_name": "Reseller Entrepreneur",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-7AasTGbkWO9MsS79FqKrNyj7.png?st=2025-10-30T16%3A46%3A10Z&se=2025-10-30T18%3A46%3A10Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b2c0e1c0-cf97-4e19-8986-8073905d5723&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T17%3A46%3A10Z&ske=2025-10-31T17%3A46%3A10Z&sks=b&skv=2024-08-04&sig=mhI7eFlisN6xRh/D0pCmLN2VCXVjmm4/b%2BktBS5s5ng%3D",
+      "file_path": "generated_images/reseller_entrepreneur_20251030_134611.png",
+      "filename": "reseller_entrepreneur_20251030_134611.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_134611",
+      "prompt_used": "Candid photo of a 32-year-old African American man in casual business attire, naturally examining an item at his workspace, genuine smile as he discovers something interesting, modern apartment with various collectibles around, natural window lighting, authentic unposed moment, photorealistic"
+    },
+    {
+      "persona_key": "antique_collector",
+      "persona_name": "Antique Collector",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-C4wErSxFwc93jNMG3sAgn1Tq.png?st=2025-10-30T16%3A46%3A33Z&se=2025-10-30T18%3A46%3A33Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=38e27a3b-6174-4d3e-90ac-d7d9ad49543f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T11%3A13%3A52Z&ske=2025-10-31T11%3A13%3A52Z&sks=b&skv=2024-08-04&sig=mU3x1hTN16bi4vgytbpTn2mi8YMIpqdHtPzVyQhUd/4%3D",
+      "file_path": "generated_images/antique_collector_20251030_134632.png",
+      "filename": "antique_collector_20251030_134632.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_134632",
+      "prompt_used": "Candid photo of a distinguished 60-year-old man with glasses in refined attire, naturally examining a book or item in his personal library, absorbed in the moment, warm ambient lighting from desk lamp, surrounded by vintage books and antiques, authentic unposed scene, photorealistic"
+    },
+    {
+      "persona_key": "small_business_owner",
+      "persona_name": "Small Business Owner",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-YvfQnaFf2cuisG3KEwwCc8n3.png?st=2025-10-30T16%3A46%3A56Z&se=2025-10-30T18%3A46%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8eb2c87c-0531-4dab-acb3-b5e2adddce6c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T14%3A09%3A40Z&ske=2025-10-31T14%3A09%3A40Z&sks=b&skv=2024-08-04&sig=VgpYslAOMsX1HcbjIchIj2pWBxIijOBdSXHjnNPa9qE%3D",
+      "file_path": "generated_images/small_business_owner_20251030_134656.png",
+      "filename": "small_business_owner_20251030_134656.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_134656",
+      "prompt_used": "Candid photo of a 40-year-old woman in casual business attire, naturally organizing items in her boutique shop, caught mid-smile while working, colorful vintage merchandise in background, soft natural daylight, authentic everyday moment, unposed, photorealistic"
+    }
+  ]
+}

@@ -37,35 +37,35 @@ class ValueSnapImageGenerator:
                 "name": "Estate Inheritor",
                 "age_range": "35-55",
                 "description": "Professional woman who inherited family antiques and collectibles",
-                "prompt": "Professional portrait of a 45-year-old woman in business attire, standing in a home office with vintage furniture and inherited antiques in the background, warm lighting, confident expression, realistic photography style"
+                "prompt": "Natural lifestyle photograph of a 45-year-old Black-Asian woman in elegant blouse, relaxed pose at minimal desk with single vintage clock and few old photographs, bright clean home office, warm genuine expression, shot with 85mm lens, soft natural window light, shallow depth of field, professional lifestyle photography, authentic real person"
             },
             "reseller_entrepreneur": {
                 "name": "Reseller Entrepreneur", 
                 "age_range": "25-40",
-                "description": "Young professional who buys and sells items for profit",
-                "prompt": "Portrait of a 32-year-old person in casual business attire, sitting at a desk with multiple items for resale (vintage items, electronics, collectibles) organized around them, modern apartment setting, entrepreneurial vibe, realistic photography style"
+                "description": "Young African American professional who buys and sells items for profit",
+                "prompt": "Natural lifestyle photograph of a 32-year-old African American man in casual button-up shirt, relaxed pose at his workspace with items visible but blurred in background, warm genuine expression, shot with 50mm lens, soft natural lighting from window, shallow depth of field, professional lifestyle photography, authentic real person"
             },
             "antique_collector": {
                 "name": "Antique Collector",
                 "age_range": "50-70", 
                 "description": "Mature collector evaluating valuable items",
-                "prompt": "Distinguished 60-year-old person examining an antique item with a magnifying glass, surrounded by carefully curated vintage items and books, library or study setting, sophisticated atmosphere, realistic photography style"
+                "prompt": "Natural lifestyle photograph of a distinguished 60-year-old man with classic glasses in sweater or blazer, seated in personal library with bookshelves softly blurred behind him, calm intelligent expression, shot with 85mm lens, warm ambient lighting, shallow depth of field, professional lifestyle photography, authentic real person"
             },
             "small_business_owner": {
                 "name": "Small Business Owner",
                 "age_range": "30-50",
                 "description": "Shop owner who needs quick item valuations",
-                "prompt": "Portrait of a 40-year-old small business owner in their vintage/consignment shop, surrounded by diverse items for sale, friendly and approachable expression, natural lighting, realistic photography style"
+                "prompt": "Natural lifestyle photograph of a 40-year-old woman in casual business attire, standing in her boutique with colorful merchandise softly blurred in background, warm welcoming smile, shot with 50mm lens, soft natural daylight, shallow depth of field, professional lifestyle photography, authentic real person"
             }
         }
     
-    def generate_consumer_image(self, persona_key: str, size: str = "512x512") -> Dict:
+    def generate_consumer_image(self, persona_key: str, size: str = "1024x1024") -> Dict:
         """
         Generate an image for a specific consumer persona
         
         Args:
             persona_key: Key for the consumer persona
-            size: Image size (256x256, 512x512, 1024x1024)
+            size: Image size (256x256, 512x512, 1024x1024 for DALL-E 2)
             
         Returns:
             Dict with image info and file path
@@ -127,7 +127,7 @@ class ValueSnapImageGenerator:
             print(f"❌ {error_msg}")
             raise Exception(error_msg)
     
-    def generate_all_personas(self, size: str = "512x512", delay: int = 2) -> List[Dict]:
+    def generate_all_personas(self, size: str = "1024x1024", delay: int = 5) -> List[Dict]:
         """
         Generate images for all consumer personas
         

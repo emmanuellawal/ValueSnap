@@ -1,0 +1,52 @@
+{
+  "generation_timestamp": "2025-10-30T13:40:51.714841",
+  "total_personas": 4,
+  "successful_generations": 4,
+  "failed_generations": 0,
+  "results": [
+    {
+      "persona_key": "estate_inheritor",
+      "persona_name": "Estate Inheritor",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-IajI5JhRgsRxixWhHSFDcIoE.png?st=2025-10-30T16%3A39%3A23Z&se=2025-10-30T18%3A39%3A23Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=38e27a3b-6174-4d3e-90ac-d7d9ad49543f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T14%3A38%3A39Z&ske=2025-10-31T14%3A38%3A39Z&sks=b&skv=2024-08-04&sig=/7nPZeF2bQu31HnIYxUCzTUAf8ry%2BeSWEEQDvNsuJ1M%3D",
+      "file_path": "generated_images/estate_inheritor_20251030_133924.png",
+      "filename": "estate_inheritor_20251030_133924.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_133924",
+      "prompt_used": "Professional portrait photograph of a confident 45-year-old woman in elegant business attire, head and shoulders only, sitting in upscale home office, hands clasped naturally on desk, soft natural lighting from window, neutral expression, blurred vintage furniture background, photorealistic, high detail portrait"
+    },
+    {
+      "persona_key": "reseller_entrepreneur",
+      "persona_name": "Reseller Entrepreneur",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-3Al4o5m3J4gHfkO8krsa48IE.png?st=2025-10-30T16%3A40%3A04Z&se=2025-10-30T18%3A40%3A04Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=c6569cb0-0faa-463d-9694-97df3dc1dfb1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T17%3A40%3A04Z&ske=2025-10-31T17%3A40%3A04Z&sks=b&skv=2024-08-04&sig=yD3PQdxvgxWBFXtmb5tj1N2L81/w8uoPVip9Aecf2zs%3D",
+      "file_path": "generated_images/reseller_entrepreneur_20251030_134004.png",
+      "filename": "reseller_entrepreneur_20251030_134004.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_134004",
+      "prompt_used": "Professional portrait photograph of a friendly 32-year-old African American man in smart casual business attire, head and shoulders only, sitting at modern workspace, hands resting naturally, warm genuine smile, soft studio lighting, blurred contemporary office background, photorealistic, high detail portrait"
+    },
+    {
+      "persona_key": "antique_collector",
+      "persona_name": "Antique Collector",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-wO5NNJsZu7z0pwCNigcFP0xi.png?st=2025-10-30T16%3A40%3A26Z&se=2025-10-30T18%3A40%3A26Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=32836cae-d25f-4fe9-827b-1c8c59c442cc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T10%3A52%3A16Z&ske=2025-10-31T10%3A52%3A16Z&sks=b&skv=2024-08-04&sig=1qA/KDxdT5J/a9jOX7bYT2Wdkv6HTFU2h1p0o2t%2Be5M%3D",
+      "file_path": "generated_images/antique_collector_20251030_134024.png",
+      "filename": "antique_collector_20251030_134024.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_134024",
+      "prompt_used": "Professional portrait photograph of a distinguished 60-year-old man with classic eyeglasses in refined attire, head and shoulders only, sitting in traditional library, hands folded naturally, thoughtful expression, warm lamp lighting, blurred bookshelf background, photorealistic, high detail portrait"
+    },
+    {
+      "persona_key": "small_business_owner",
+      "persona_name": "Small Business Owner",
+      "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-NgJaM6DsGZavUGZTP2HK50jU/user-XGBdKktZGxxlLZ71soQr8ZlW/img-1ONMv9aOy90bmgQ4mNikbzVD.png?st=2025-10-30T16%3A40%3A47Z&se=2025-10-30T18%3A40%3A47Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=0e2a3d55-e963-40c9-9c89-2a1aa28cb3ac&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-30T17%3A40%3A47Z&ske=2025-10-31T17%3A40%3A47Z&sks=b&skv=2024-08-04&sig=iHYCH6NiE4wxqmODKRjMSZpRer3QLH61QJEkp0wifzE%3D",
+      "file_path": "generated_images/small_business_owner_20251030_134047.png",
+      "filename": "small_business_owner_20251030_134047.png",
+      "size": "1024x1024",
+      "format": "PNG",
+      "timestamp": "20251030_134047",
+      "prompt_used": "Professional portrait photograph of a welcoming 40-year-old woman in casual business attire, head and shoulders only, sitting in boutique shop, hands placed naturally, friendly approachable smile, soft natural lighting, blurred colorful merchandise background, photorealistic, high detail portrait"
+    }
+  ]
+}
